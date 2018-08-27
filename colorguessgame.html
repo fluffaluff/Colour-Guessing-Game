@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>RGB Colour Guessing Game</title>
+</head>
+<body>
+  <div class="container" id="banner">
+      <h1><span id="pickedColor">RGB</span><br> Colour Guessing Game</h1>
+  </div>
+  <div id="stripe">
+    <button id="reset">New Colours</button>
+    <p id="message"></p>
+    <button class="hamburger">&#9776;</button>
+    <button class="mode navBtn">Easy</button>
+    <button class="mode navBtn" class="selected">Normal</button>
+    <button class="mode navBtn">Hard</button>    
+  </div>
+  <div>
+    <button class="mode secretNav">Easy</button>
+    <button class="mode secretNav" class="selected">Normal</button>
+    <button class="mode secretNav">Hard</button>
+  </div>
+  
+  <div id="scoreDiv">
+      <p id="scoreText">Score: <span id="score">0</span></p>
+      <p id="triesText">Tries left: <span id="lives">3</span></p>
+  </div>
+  <div class="container colorContainer">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+
